@@ -8,6 +8,7 @@ let allMessages = {}
 let filePath = process.argv[process.argv.length-1]
 
 fs.readFile(filePath, 'utf8', function (err, data) {
+    
     if (err) throw err;
     let i = 0
     data.split("\n").forEach(function (line) {
