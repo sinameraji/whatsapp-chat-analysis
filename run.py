@@ -1,7 +1,6 @@
 import argparse
 import tkFileDialog
 from Tkinter import *
-from Naked.toolshed.shell import execute_js
 
 
 def get_output_filename(input_file_name):
