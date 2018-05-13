@@ -1,6 +1,6 @@
 # Find the most frequent words in your WhatsApp conversations
 
-In ```run.py``` line 104 I'm running my clean.js file, because I had a problem with string encoding and data cleaning in python. it was injecting these weird ```\u1234``` stuff and I found it easier to just redo the whole thing in Nodejs rather than trying to fix the encoding in Python. I'm a simple man.
+Not an extremely meaningful project. Just a simple NLP assignment that extract the 5 most frequently used words in ur whatsapp chat with a person/group. You'll need to export data from whatsapp and load into the program manually.
 
 ## Dependencies
 * Python 3.6
